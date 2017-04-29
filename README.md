@@ -1,5 +1,5 @@
 # Getting_and_cleaning_data
-=========================================================================================
+=====================================================================================
 UCI HAR Dataset zip folder was download from the link
 "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
@@ -17,7 +17,7 @@ UCI HAR Dataset  folder contains the below files and sub-folders:
 - Folder
 - test 
 - train
-=========================================================================================
+=====================================================================================
 The experiments have been carried out with a group of 30 volunteers within an age bracket
 of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, 
 WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II)
@@ -37,8 +37,8 @@ vector of features was obtained by calculating variables from the time and frequ
 domain. See 'features_info.txt' for more details. 
 
 For each record it is provided:
-==========================================================================================
 
+=====================================================================================
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body 
   acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -78,7 +78,7 @@ by subtracting the gravity from the total acceleration.
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured 
 by the gyroscope for each window sample. The units are radians/second. 
 
-=========================================================================================
+=====================================================================================
 ###What is a tidy data ?
 T
 Tidy data is a standard way of mapping the meaning of a dataset to its structure. 
@@ -91,11 +91,11 @@ with observations, variables and types. In tidy data:
 
 References: Hadley Wickham's paper on tidy data
 
-================================================================================
+=====================================================================================
 Notes
 
-###un_analysis.R : Contains the script for analysing and creating the final tidy output dataset
-###CodeBook.md   : Contains the explanation for each variable of the tidy dataset,
+### run_analysis.R : Contains the script for analysing and creating the final tidy output dataset
+### CodeBook.md   : Contains the explanation for each variable of the tidy dataset,
                  transformations performed to achieve the data,understsanding the data.
 				
 
