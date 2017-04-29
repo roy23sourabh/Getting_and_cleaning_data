@@ -111,26 +111,26 @@ std(): Standard deviation
 68. fBodyBodyGyroJerkMag-std()
 
 
-==================================================================================
+###Analysis Steps
 
--Step 1 : Download the data from the mentioned web link and store it.
--Step 2 : Load test and train datas from all txt files in R and check the dimensions to 
+- Step 1 : Download the data from the mentioned web link and store it.
+- Step 2 : Load test and train datas from all txt files in R and check the dimensions to 
 have a idea of observations and variables.Data frames created are xTest,yTest,xTrain,yTrain
 subjectTest,subjectTrain
--Step 3: Load the features ,activity_label txt into data frame in R.Data frames created are featureList,activityLabels
--Step 4 : Assign column names for yTest and yTrain with "Activity" such that unique rows can be created before merging.
--Step 5 : Assign column names for subjectTest and subjectTrain with "Subject" such that unique rows can be before merging.
--Step 6: Column bind (xTest , yTest & subjectTest) into Data frame DF1.
--Step 7: Column bind (xTrain , yTrain & subjectTrain) into Data frame DF2.
--Step 8: Merge both DF1, DF2 giving mergedDataset of dim - 10299 observations and 563 variables.
--Step 9: Extract only the measurements on mean and standard deviation (std) on featureList 
+- Step 3: Load the features ,activity_label txt into data frame in R.Data frames created are featureList,activityLabels
+- Step 4 : Assign column names for yTest and yTrain with "Activity" such that unique rows can be created before merging.
+- Step 5 : Assign column names for subjectTest and subjectTrain with "Subject" such that unique rows can be before merging.
+- Step 6: Column bind (xTest , yTest & subjectTest) into Data frame DF1.
+- Step 7: Column bind (xTrain , yTrain & subjectTrain) into Data frame DF2.
+- Step 8: Merge both DF1, DF2 giving mergedDataset of dim - 10299 observations and 563 variables.
+- Step 9: Extract only the measurements on mean and standard deviation (std) on featureList 
 using grep and regular expression so that index can be captured in index variable and the values are in variable called labels.
 labels got 66 variable names.
--Step 10: Subset the mergedDataset with the index obtained from step 9,and remaining two variables(Activity & Subject).
--Step 11: Sort the data frame obtained from step 10 and store in sortedDataset.
--Step 12: Merge sortedDataset and activityLabels so as to give descriptive activity names to 
+- Step 10: Subset the mergedDataset with the index obtained from step 9,and remaining two variables(Activity & Subject).
+- Step 11: Sort the data frame obtained from step 10 and store in sortedDataset.
+- Step 12: Merge sortedDataset and activityLabels so as to give descriptive activity names to 
 name the activities in the data set and store in newDataset.
--Step 13: subsetting the newDataset with required columns and assigning the column names with labels ,"Activity" and "Subject" 
+- Step 13: subsetting the newDataset with required columns and assigning the column names with labels ,"Activity" and "Subject" 
 and create a labelDataset which is the final tidy data.(Step 4 of assignment question).
--Step 14: Create a new tidyDataset using group by on Activity and Subject.
--Step 15: Summarise each with mean function to obtain the  outputDataset with 180 observations and 68 variables.(Step 5 of assignment question)
+- Step 14: Create a new tidyDataset using group by on Activity and Subject.
+- Step 15: Summarise each with mean function to obtain the  outputDataset with 180 observations and 68 variables.(Step 5 of assignment question)
