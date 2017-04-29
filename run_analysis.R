@@ -22,7 +22,9 @@ DF2 <- cbind(DF2,subjectTrain)
 mergeDataset <- merge(DF1,DF2,all=TRUE)
 
 labels <- grep("(+mean+[()]+)|(std)",featureList$V2,value = TRUE)
-
+labels <- gsub("-",".",labels)
+labels <- gsub(".mean+[()]+","Mean",labels)
+labels <- gsub(".std+[()]+","Std",labels)
 #table(grepl("(+mean+[()]+)|(std)",featureList$V2)) 
 
 index <-grep("(+mean+[()]+)|(std)",featureList$V2) 
