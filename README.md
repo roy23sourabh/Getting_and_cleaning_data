@@ -17,6 +17,7 @@ UCI HAR Dataset  folder contains the below files and sub-folders:
 - Folder
 - test 
 - train
+- 
 =====================================================================================
 The experiments have been carried out with a group of 30 volunteers within an age bracket
 of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, 
@@ -79,8 +80,8 @@ by subtracting the gravity from the total acceleration.
 by the gyroscope for each window sample. The units are radians/second. 
 
 =====================================================================================
-###What is a tidy data ?
-T
+What is a tidy data ?
+
 Tidy data is a standard way of mapping the meaning of a dataset to its structure. 
 A dataset is messy or tidy depending on how rows, columns and tables are matched up 
 with observations, variables and types. In tidy data:
@@ -94,8 +95,7 @@ References: Hadley Wickham's paper on tidy data
 =====================================================================================
 Notes
 
-### run_analysis.R : Contains the script for analysing and creating the final tidy output dataset
-### CodeBook.md   : Contains the explanation for each variable of the tidy dataset,
-                 transformations performed to achieve the data,understsanding the data.
+- run_analysis.R : Contains the script for analysing and creating the final tidy output dataset
+- CodeBook.md    : Contains the explanation for each variable of the tidy dataset transformations performed to achieve the data,understsanding the data.
 				
 
