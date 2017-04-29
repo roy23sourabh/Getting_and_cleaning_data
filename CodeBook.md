@@ -113,7 +113,7 @@ std(): Standard deviation
 
 ### Analysis Steps
 
-- Step 1 : Download the data from the mentioned web link and store it.
+- Step 1 : Download the data from the mentioned web link and store it in your working directory.
 - Step 2 : Load test and train datas from all txt files in R and check the dimensions to 
 have a idea of observations and variables.Data frames created are xTest,yTest,xTrain,yTrain
 subjectTest,subjectTrain

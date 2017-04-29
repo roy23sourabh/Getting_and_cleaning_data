@@ -97,5 +97,5 @@ Notes
 
 - run_analysis.R : Contains the script for analysing and creating the final tidy output dataset
 - CodeBook.md    : Contains the explanation for each variable of the tidy dataset transformations performed to achieve the data,understsanding the data.
-				
+- outputData.txt : contains the tidy dataset for the final step as per the assignment.				
 
