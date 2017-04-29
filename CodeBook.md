@@ -111,7 +111,7 @@ std(): Standard deviation
 68. fBodyBodyGyroJerkMag-std()
 
 
-###Analysis Steps
+### Analysis Steps
 
 - Step 1 : Download the data from the mentioned web link and store it.
 - Step 2 : Load test and train datas from all txt files in R and check the dimensions to 
