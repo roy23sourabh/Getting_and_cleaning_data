@@ -17,7 +17,7 @@ UCI HAR Dataset  folder contains the below files and sub-folders:
 - Folder
 - test 
 - train
-- 
+
 =====================================================================================
 The experiments have been carried out with a group of 30 volunteers within an age bracket
 of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, 
@@ -96,6 +96,6 @@ References: Hadley Wickham's paper on tidy data
 Notes
 
 - run_analysis.R : Contains the script for analysing and creating the final tidy output dataset
-- CodeBook.md    : Contains the explanation for each variable of the tidy dataset transformations performed to achieve the data,understsanding the data.
+- CodeBook.md    : Contains the explanation for each variable of the tidy dataset,transformations performed to achieve the tidy data,understanding the data.
 - outputData.txt : contains the tidy dataset for the final step as per the assignment.				
 
