@@ -1,5 +1,5 @@
 # Getting_and_cleaning_data
-==============================================================================
+=========================================================================================
 UCI HAR Dataset zip folder was download from the link
 "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
@@ -9,15 +9,15 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 UCI HAR Dataset  folder contains the below files and sub-folders:
 
-Files
- activity_labels.txt
- features_info.txt
- features.txt
- README.txt
-Folder
- test 
- train
-===============================================================================
+- Files
+- activity_labels.txt
+- features_info.txt
+- features.txt
+- README.txt
+- Folder
+- test 
+- train
+=========================================================================================
 The experiments have been carried out with a group of 30 volunteers within an age bracket
 of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, 
 WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II)
@@ -37,9 +37,10 @@ vector of features was obtained by calculating variables from the time and frequ
 domain. See 'features_info.txt' for more details. 
 
 For each record it is provided:
-================================================================================
+==========================================================================================
 
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body 
+  acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
@@ -60,18 +61,26 @@ The dataset includes the following files:
 - 'test/X_test.txt': Test set.
 
 - 'test/y_test.txt': Test labels.
-The following files are available for the train and test data. Their descriptions are equivalent. 
+The following files are available for the train and test data. Their descriptions are 
+equivalent. 
 
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity 
+for each window sample. Its range is from 1 to 30. 
 
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
+- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the s
+martphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 
+element vector. The same description applies for the 'total_acc_x_train.txt' and 
+'total_acc_z_train.txt' files for the Y and Z axis. 
 
-- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained 
+by subtracting the gravity from the total acceleration. 
 
-- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured 
+by the gyroscope for each window sample. The units are radians/second. 
 
-================================================================================
-What is a tidy data ?
+=========================================================================================
+###What is a tidy data ?
+T
 Tidy data is a standard way of mapping the meaning of a dataset to its structure. 
 A dataset is messy or tidy depending on how rows, columns and tables are matched up 
 with observations, variables and types. In tidy data:
@@ -85,8 +94,8 @@ References: Hadley Wickham's paper on tidy data
 ================================================================================
 Notes
 
-run_analysis.R : Contains the script for analysing and creating the final tidy output dataset
-CodeBook.md    : Contains the explanation for each variable of the tidy dataset,
+###un_analysis.R : Contains the script for analysing and creating the final tidy output dataset
+###CodeBook.md   : Contains the explanation for each variable of the tidy dataset,
                  transformations performed to achieve the data,understsanding the data.
 				
 
